@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced/_features/on_borading/widgets/doc_image_and_text.dart';
 import 'package:flutter_advanced/_features/on_borading/widgets/doctor_logo_and_text.dart';
+import 'package:flutter_advanced/core/helper/extenstion.dart';
+import 'package:flutter_advanced/core/routing/router.dart';
 import 'package:flutter_advanced/core/theme/app_styles.dart';
 import 'package:flutter_advanced/core/widgets/app_button.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -40,7 +42,7 @@ class OnBoradingView extends StatelessWidget {
               ),
               AppButton(
                 text: 'Get Started',
-                onPressed: () {},
+                onPressed: () => context.pushReplacement(Routers.login),
               ),
             ],
           ),
