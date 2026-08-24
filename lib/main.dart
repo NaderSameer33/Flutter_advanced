@@ -1,20 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_advanced/core/routing/app_router.dart';
+import 'package:flutter_advanced/doc_doc.dart';
 
 void main() {
-  runApp(const FlutterAdvanced());
-}
-
-class FlutterAdvanced extends StatelessWidget {
-  const FlutterAdvanced({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Flutter advanced'),
-        ),
-      ),
-    );
-  }
+  runApp(
+    DocDocApp(
+      approuter: AppRouter(),
+    ),
+  );
 }
