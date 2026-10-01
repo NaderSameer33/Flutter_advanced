@@ -10,13 +10,12 @@ class AppButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
         fixedSize: Size.fromHeight(52.h),
         backgroundColor: ColorManger.mainBlue,
         shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadiusGeometry.all(Radius.circular(12)),
+          borderRadius: BorderRadiusGeometry.all(Radius.circular(16)),
         ),
       ),
       onPressed: onPressed,

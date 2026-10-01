@@ -14,13 +14,16 @@ class DocDocApp extends StatelessWidget {
       splitScreenMode: true,
       minTextAdapt: true,
 
-      child: MaterialApp(
-        theme: ThemeData(
-          primaryColor: ColorManger.mainBlue,
-          scaffoldBackgroundColor: Colors.white,
+      child: GestureDetector(
+        onTap: () => FocusManager.instance.primaryFocus!.unfocus(),
+        child: MaterialApp(
+          theme: ThemeData(
+            primaryColor: ColorManger.mainBlue,
+            scaffoldBackgroundColor: Colors.white,
+          ),
+          onGenerateRoute: approuter.onGenrateRoute,
+          initialRoute: '/onBorading',
         ),
-        onGenerateRoute: approuter.onGenrateRoute,
-        initialRoute: '/onBorading',
       ),
     );
   }
