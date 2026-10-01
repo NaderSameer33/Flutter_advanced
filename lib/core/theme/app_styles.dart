@@ -8,7 +8,7 @@ abstract class AppStyles {
     fontSize: 24.sp,
   );
   static TextStyle font32boldblue = TextStyle(
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeightHelper.bold,
     fontSize: 32.sp,
     color: ColorManger.mainBlue,
   );
