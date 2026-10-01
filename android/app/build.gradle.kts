@@ -24,6 +24,21 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
+   flavorDimensions += "default"
+    productFlavors {
+        create("staging") {
+            dimension = "default"
+            applicationIdSuffix = ".staging"
+        }
+        create("production") {
+            dimension = "default"
+           
+        }
+    }
+
+
+
+
 
     buildTypes {
         release {
