@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627781265017",
+    "project_id": "notifaction-a5d3b",
+    "storage_bucket": "notifaction-a5d3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627781265017:android:d37933ce96ab19de4f96a8",
+        "android_client_info": {
+          "package_name": "com.example.flutter_advanced"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_TaUTwY-HzMYASyy5fkKos_IH5CcDeXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627781265017:android:c83b816db81bf13b4f96a8",
+        "android_client_info": {
+          "package_name": "com.example.notifaction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_TaUTwY-HzMYASyy5fkKos_IH5CcDeXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
